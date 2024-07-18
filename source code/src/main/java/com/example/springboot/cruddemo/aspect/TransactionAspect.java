@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Transactional
 public class TransactionAspect {
 
-	@Pointcut("execution(* com.example.springboot.thymeleafdemo.service.*.*(..))")
+	@Pointcut("execution(* com.example.springboot.cruddemo.service.*.*(..))")
 	private void forServicePackage() {}
 
 	@Before("forServicePackage()")
