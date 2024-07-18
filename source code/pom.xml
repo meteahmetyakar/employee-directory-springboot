@@ -11,9 +11,9 @@
 	</parent>
 	
 	<groupId>com.example.springboot</groupId>
-	<artifactId>thymeleafdemo</artifactId>
+	<artifactId>cruddemo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>thymeleafdemo</name>
+	<name>cruddemo</name>
 	<description>Demo project for Spring Boot</description>
 	
 	<properties>

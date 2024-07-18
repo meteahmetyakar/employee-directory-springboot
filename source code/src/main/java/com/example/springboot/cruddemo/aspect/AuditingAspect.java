@@ -11,7 +11,7 @@ import java.util.Date;
 @Component
 public class AuditingAspect {
 
-	@Before("execution(* com.example.springboot.thymeleafdemo.service.*.save*(..))")
+	@Before("execution(* com.example.springboot.cruddemo.service.*.save*(..))")
 	public void beforeSave(JoinPoint joinPoint) {
 		Object[] args = joinPoint.getArgs();
 		// Assume that the first argument is the entity being saved
@@ -20,7 +20,7 @@ public class AuditingAspect {
 		System.out.println("Timestamp: " + new Date());
 	}
 
-	@Before("execution(* com.example.springboot.thymeleafdemo.service.*.delete*(..))")
+	@Before("execution(* com.example.springboot.cruddemo.service.*.delete*(..))")
 	public void beforeDelete(JoinPoint joinPoint) {
 		Object[] args = joinPoint.getArgs();
 		// Assume that the first argument is the ID of the entity being deleted

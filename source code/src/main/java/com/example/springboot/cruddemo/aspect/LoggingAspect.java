@@ -20,13 +20,13 @@ public class LoggingAspect {
 	@Autowired
 	private LogStorage logStorage;
 
-	@Pointcut("execution(* com.example.springboot.thymeleafdemo.controller.*.*(..))")
+	@Pointcut("execution(* com.example.springboot.cruddemo.controller.*.*(..))")
 	private void forControllerPackage() {}
 
-	@Pointcut("execution(* com.example.springboot.thymeleafdemo.service.*.*(..)) && !execution(* com.example.springboot.thymeleafdemo.service.LogService.*(..))")
+	@Pointcut("execution(* com.example.springboot.cruddemo.service.*.*(..)) && !execution(* com.example.springboot.cruddemo.service.LogService.*(..))")
 	private void forServicePackage() {}
 
-	@Pointcut("execution(* com.example.springboot.thymeleafdemo.dao.*.*(..))")
+	@Pointcut("execution(* com.example.springboot.cruddemo.dao.*.*(..))")
 	private void forDAOPackage() {}
 
 	@Pointcut("forControllerPackage() || forServicePackage() || forDAOPackage()")

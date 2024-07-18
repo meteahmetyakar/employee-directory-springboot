@@ -12,14 +12,19 @@ public class Log {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 
+
+	@Column(columnDefinition = "LONGTEXT")
 	private String method;
 
+	@Column(columnDefinition = "LONGTEXT")
 	private String args;
 
+	@Column(columnDefinition = "LONGTEXT")
 	private String result;
 
 	private long duration;
 
+	@Column(columnDefinition = "LONGTEXT")
 	private String exception;
 
 	private Date timestamp;
