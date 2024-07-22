@@ -1,6 +1,6 @@
 ## Overview
 
-This is a Spring Boot application that demonstrates CRUD (Create, Read, Update, Delete) operations with Spring Data JPA. The project also utilizes Aspect-Oriented Programming (AOP) for transaction, logging and auditing and includes scheduled tasks. This application serves as a sample employee directory with basic functionalities.
+This is a Spring Boot application that demonstrates CRUD (Create, Read, Update, Delete) operations with Spring Data JPA. The project also utilizes Aspect-Oriented Programming (AOP) for transaction, logging and auditing, shutdown situations and includes scheduled tasks. This application serves as a sample employee directory with basic functionalities.
 
 ## Features
 
