@@ -2,6 +2,8 @@
 
 This spring boot project is a sample employee directory with CRUD functionalities. In this project, Spring Data JPA is used for CRUD functionalities and Spring AOP is used keep track of transaction, auditing, scheduled logging, and shutdown situations.  
 
+## Features
+
 - **Employee Management**: Add, update, view, and delete employee records.
 - **Logging and Auditing**: Uses AOP for logging method calls and auditing changes.
 - **Scheduled Tasks**: Includes example scheduled tasks for periodic operations.
